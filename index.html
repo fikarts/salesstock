@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    	<header>
+ 			<div class="nav_left">
+ 				<img src="img/back.svg">
+ 			</div>
+ 			<div class="nav_center">
+ 				<p>Form Pengajuan Retur</p>
+ 			</div>
+ 			<div class="nav_right"></div>
+ 			
+ 		</header>
+      	<form action="index.html" method="post">
+        
+        
+	        <fieldset>
+	          
+	          <legend><span class="number">1</span> Data Sista</legend>
+	        
+	          <input type="text" placeholder="Nama Sista" id="name" name="user_name">	          
+	          <input type="email" placeholder="Email Sista" id="mail" name="user_email">	          
+	          <input type="number" placeholder="Hanphone Sista" id="number" name="user_number">
+	         
+	        </fieldset>
+	 	</form>
+
+		<form>        
+	        <fieldset>
+		          <legend><span class="number">2</span> Order Sista</legend>
+		          <label for="order">Nomor Order:</label>
+		          <input type="number" id="order" name="user_order" placeholder="Masukan Nomor Order Disini">
+		          <button type="load" class="button_center">Load</button>
+		          <a href="detail_items.html">
+			          <div class="main_return_items">
+				          	<div class="return_items_list_left">
+				          		<p>Baju Cardigan</p>
+				          		<p class="small">BMW-ANCD-0006MUS-RX4</p>
+				          	</div>
+				          	<div class="return_items_list_right">
+				          		<img src="img/next.svg">
+				          	</div>
+			          </div>
+			       </a>   	
+	        </fieldset>
+    	</form>  
+
+
+    	<form>        
+	        <fieldset>
+	          
+	          <legend><span class="number">3</span> Bukti Kirim</legend>
+	          
+	          <input type="text" placeholder="Biaya Kirim Balik" id="name" name="user_name">
+	          <div class="photo_upload"> 
+		          <input type="file" id="file-1" class="custom-file-input">
+		          		
+		      </div>
+		      <textarea name="keterangan" placeholder="Silakan masukan keterangan"></textarea>
+	          
+	        </fieldset>
+    	</form>
+    		<form action="index.html" method="post">
+        
+        
+	        <fieldset>
+	          
+	          <legend><span class="number">4</span> Data Bank Sista</legend>
+	        
+	          <input type="text" placeholder="Nama Bank" id="name" name="user_bank">	          
+	          <input type="text" placeholder="Cabang/Kota" id="kota" name="user_cabang">	          
+	          <input type="number" placeholder="Nomor Rekening" id="number" name="user_rekening">
+	          <input type="number" placeholder="Nama Pemilik Rekening" id="number" name="user_rekening_name">
+	         
+	        </fieldset>
+	 	</form>    
+    
+        <div class="button_center">
+       		 <button type="save">Submit</button>
+        </div>
+     
+      
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
